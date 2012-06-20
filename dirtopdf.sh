@@ -97,7 +97,6 @@ for in_img in $(eval $FIND_CMD | sort); do
 	out=$(printf "$TMP/%08d.pdf" $i)
 
 	# see http://www.imagemagick.org/script/command-line-options.php#density
-	#cvt="$CONVERT -density 300x300"
 	cvt="$CONVERT -density 96x96"
 	if [ "x$RESIZE" != "x"  ]; then
 		cvt="$cvt -resize $RESIZE"x"$RESIZE"
