@@ -6,8 +6,6 @@
 # Usage:
 #  ./dirtopdf [-rd] [-s <arg>] -o <file> <dir>
 #
-# e.g.: ./dirtopdf.sh -rd -s 3200 -o new.pdf /tmp/bar
-#
 # Optional params:
 #  -s Resize the images to <arg>.
 #
@@ -15,6 +13,7 @@
 #  -r Do so recursively
 #  -d Show a bunch of debugging output
 #
+# e.g.: ./dirtopdf.sh -rd -s 1584 -o ~/foo.pdf /usr/local/share/images/foo
 
 PDFTK="/usr/bin/pdftk"
 CONVERT="/usr/bin/convert"
