@@ -4,7 +4,7 @@ dirtopdf
 Given a directory of TIFFs, generate a web-friendly PDF.
 
 See the comments at the head of the script for usage. You may need to fiddle
-with the convert command around line 104, especially wrt `-density` and 
+with the `convert` command around line 104, especially wrt `-density` and 
 `-quality`.
 
 The basic process is to loop over the TIFFs, making a bunch of one-page PDFs in
